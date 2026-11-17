@@ -1,4 +1,30 @@
+:root {
+  --bg: #0a0a0a;
+  --text: #d8cbbd;
+  --orange: #ff7a1a;
+  --line: #2a2a2a;
+  --font-body: "Work Sans", system-ui, sans-serif;
+  --font-heading: "Newsreader", Georgia, serif;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body);
+  line-height: 1.6;
+}
+
+/* headings carry the orange so the page has one clear accent */
+h1, h2, h3 {
+  font-family: var(--font-heading);
+  color: var(--orange);
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+/* newsreader runs a little small next to other fonts, so bump h1 */
+h1 {
+  font-size: 2.6rem;
+  line-height: 1.15;
 }
