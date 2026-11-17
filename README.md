@@ -1,12 +1,5 @@
-# Wildfire Project
+# Mapping Wildfire Smoke Inhalation in the Era of Climate Change
 
-A website for my wildfire project.
+Mentored by Dr. Maggi Phillips and Dr. Leonard Kleinrock as part of the 20226-27 Internet Research Initiative Cohort.
 
-## Run locally
 
-```bash
-npm install
-npm start
-```
-
-Then open http://localhost:3000.
