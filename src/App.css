@@ -56,3 +56,14 @@
 .leaflet-control-attribution a {
   color: var(--orange);
 }
+
+.leaflet-tooltip {
+  background: var(--bg);
+  color: var(--text);
+  border: 1px solid var(--orange);
+}
+
+
+.leaflet-interactive:focus {
+  outline: none;
+}

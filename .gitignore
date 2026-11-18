@@ -23,3 +23,7 @@ yarn-error.log*
 
 # local databases
 *.db
+
+# data
+data/.venv/
+data/raw/
